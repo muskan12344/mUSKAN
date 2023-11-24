@@ -1,4 +1,16 @@
 Hello from Muskan_A00272872
+# Change the content of HelloWorld.txt
+echo "Hello from [Muskan_A00272872]" > HelloWorld.txt
+
+# Check the status
+git status
+
+# Stage the changes
+git add HelloWorld.txt
+
+# Commit the changes
+git commit -m "[good morning]"
+
 
 
 

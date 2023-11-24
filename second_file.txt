@@ -1,0 +1,17 @@
+# Create second_file.txt and add content
+echo "Adding a second file" > second_file.txt
+# Stage the new file
+git add second_file.txt
+
+# Commit the addition
+git commit -m "[Good morning]"
+# Update the text in second_file.txt
+echo "Adding a second file for [Muskan_A00272872]" >> second_file.txt
+
+# Stage the changes (if necessary)
+git add second_file.txt
+
+# Commit the changes
+git commit -m "[goodmorning]"
+# Push your branch to GitHub
+git push -u origin [mUSKAN]
